@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://demign.tk/"/>
-  <updated>2017-05-04T03:52:53.818Z</updated>
+  <updated>2017-05-04T08:10:11.147Z</updated>
   <id>http://demign.tk/</id>
   
   <author>
@@ -16,11 +16,53 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>汉诺塔的递归实现</title>
+    <link href="http://demign.tk/2017/05/04/Hanoi/"/>
+    <id>http://demign.tk/2017/05/04/Hanoi/</id>
+    <published>2017-05-04T08:03:33.000Z</published>
+    <updated>2017-05-04T08:10:11.147Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[摘要]古老的益智游戏现在只需几行代码就可以搞定啦&lt;/p&gt;
+&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr
+    
+    </summary>
+    
+      <category term="技术" scheme="http://demign.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="算法" scheme="http://demign.tk/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>杨辉三角，又称帕斯卡三角形的实现</title>
+    <link href="http://demign.tk/2017/05/04/Triangle/"/>
+    <id>http://demign.tk/2017/05/04/Triangle/</id>
+    <published>2017-05-04T06:30:35.000Z</published>
+    <updated>2017-05-04T07:29:59.388Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[摘要]&lt;/p&gt;
+&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;
+    
+    </summary>
+    
+      <category term="技术" scheme="http://demign.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="算法" scheme="http://demign.tk/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>斐波拉契数列的实现</title>
     <link href="http://demign.tk/2017/05/04/Fibonacci/"/>
     <id>http://demign.tk/2017/05/04/Fibonacci/</id>
     <published>2017-05-04T03:25:22.000Z</published>
-    <updated>2017-05-04T03:52:53.818Z</updated>
+    <updated>2017-05-04T07:38:19.481Z</updated>
     
     <summary type="html">
     

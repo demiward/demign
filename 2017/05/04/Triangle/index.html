@@ -10,7 +10,7 @@
     
     <title>
         
-            Hello Ward | 
+            杨辉三角，又称帕斯卡三角形的实现 | 
         
         MY BLOG
     </title>
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="demi">
     <meta name="description" content="hahahahaha">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,算法">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -48,9 +48,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://demign.tk">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hello Ward | MY BLOG">
+    <meta property="og:title" content="杨辉三角，又称帕斯卡三角形的实现 | MY BLOG">
     <meta property="og:description" content="hahahahaha">
-    
+    <meta property="og:article:tag" content="算法"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -235,7 +235,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Quick-Start"><span class="post-toc-number">1.</span> <span class="post-toc-text">Quick Start</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Create-a-new-post"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Create a new post</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Run-server"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Run server</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Generate-static-files"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Generate static files</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Deploy-to-remote-sites"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#C"><span class="post-toc-number">1.</span> <span class="post-toc-text">C++</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#python"><span class="post-toc-number">2.</span> <span class="post-toc-text">python</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#结果"><span class="post-toc-number">3.</span> <span class="post-toc-text">结果</span></a></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -271,7 +271,7 @@
         
     
             <p class="article-headline-p">
-                Hello Ward
+                杨辉三角，又称帕斯卡三角形的实现
             </p>
         </div>
 
@@ -290,7 +290,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>demi</strong>
-        <span>4月 06, 2017</span>
+        <span>5月 04, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -314,7 +314,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/算法/">算法</a>
     </ul>
     
 
@@ -341,7 +341,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hello Ward&url=http://demign.tk//2017/04/06/hello-ward/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=杨辉三角，又称帕斯卡三角形的实现&url=http://demign.tk//2017/05/04/Triangle/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -350,7 +350,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Hello Ward&url=http://demign.tk//2017/04/06/hello-ward/index.html&via=demi" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=杨辉三角，又称帕斯卡三角形的实现&url=http://demign.tk//2017/05/04/Triangle/index.html&via=demi" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -359,7 +359,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://demign.tk//2017/04/06/hello-ward/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://demign.tk//2017/05/04/Triangle/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -368,7 +368,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://demign.tk//2017/04/06/hello-ward/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://demign.tk//2017/05/04/Triangle/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -392,15 +392,13 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>[摘要]</p>
+<h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iomanip&gt;</span></span></div><div class="line"></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"></div><div class="line"><span class="meta">#<span class="meta-keyword">define</span> N 10</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">triangle</span><span class="params">()</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">	triangle();</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">triangle</span><span class="params">()</span> </span>&#123;</div><div class="line">	<span class="keyword">int</span> a[N][N] = &#123;<span class="number">0</span>&#125;;</div><div class="line">	<span class="keyword">int</span> i, j;</div><div class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;N; i++)</div><div class="line">		<span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;N; j++) &#123;</div><div class="line">			a[i][<span class="number">0</span>] = <span class="number">1</span>;</div><div class="line">			<span class="keyword">if</span>(j&gt;<span class="number">0</span> &amp;&amp; j&lt;i) </div><div class="line">				a[i][j] = a[i<span class="number">-1</span>][j<span class="number">-1</span>] + a[i<span class="number">-1</span>][j];</div><div class="line">			<span class="keyword">else</span> <span class="keyword">if</span>(i == j)</div><div class="line">				a[i][j] = <span class="number">1</span>;</div><div class="line">		&#125;</div><div class="line"></div><div class="line">	<span class="keyword">for</span>(i=<span class="number">0</span>; i&lt;N; i++)</div><div class="line">		<span class="keyword">for</span>(j=<span class="number">0</span>; j&lt;=i; j++) &#123;</div><div class="line">			<span class="built_in">cout</span> &lt;&lt; setw(<span class="number">4</span>) &lt;&lt; a[i][j];</div><div class="line">			<span class="keyword">if</span>(i == j)</div><div class="line">				<span class="built_in">cout</span> &lt;&lt; <span class="string">'\n'</span>;</div><div class="line">		&#125;</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="python"><a href="#python" class="headerlink" title="python"></a>python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">triangles</span><span class="params">()</span>:</span></div><div class="line">	a = [<span class="number">1</span>]</div><div class="line">	<span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">		<span class="keyword">yield</span> a	       <span class="comment">#打印出该list</span></div><div class="line">		a = [a[x] + a[x+<span class="number">1</span>] <span class="keyword">for</span> x <span class="keyword">in</span> range(len(a)<span class="number">-1</span>)]   <span class="comment">#计算下一行中间的值（除去两边的1）</span></div><div class="line">		a.insert(<span class="number">0</span>, <span class="number">1</span>)     <span class="comment">#在开头插入1</span></div><div class="line">		a.append(<span class="number">1</span>)		   <span class="comment">#在末尾插入1</span></div><div class="line">		</div><div class="line">n = <span class="number">0</span>		</div><div class="line"><span class="keyword">for</span> t <span class="keyword">in</span> triangles():</div><div class="line">	print(t)</div><div class="line">	n = n + <span class="number">1</span></div><div class="line">	<span class="keyword">if</span> n == <span class="number">10</span>:</div><div class="line">		<span class="keyword">break</span></div></pre></td></tr></table></figure>
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>C++</p>
+<p><img src="triangle_C++.png" alt="1"></p>
+<p>python</p>
+<p><img src="triangle_python.png" alt="2"></p>
 
     
 
@@ -427,7 +425,7 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/04/02/build-github-pages/" id="post_nav-newer" class="prev-content">
+        <a href="/2017/05/04/Fibonacci/" id="post_nav-newer" class="prev-content">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
             </button>
@@ -441,7 +439,7 @@
 
     <!-- Next Nav -->
     
-        <a href="/2017/05/04/Fibonacci/" id="post_nav-older" class="next-content">
+        <a href="/2017/05/04/Hanoi/" id="post_nav-older" class="next-content">
             旧篇
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
