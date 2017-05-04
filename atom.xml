@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>MY BLOG</title>
+  <subtitle>yeah yeah yeah</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://demign.tk/"/>
+  <updated>2017-05-04T03:36:39.494Z</updated>
+  <id>http://demign.tk/</id>
+  
+  <author>
+    <name>demi</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>斐波拉契数列的实现</title>
+    <link href="http://demign.tk/2017/05/04/Fibonacci/"/>
+    <id>http://demign.tk/2017/05/04/Fibonacci/</id>
+    <published>2017-05-04T03:25:22.000Z</published>
+    <updated>2017-05-04T03:36:39.494Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[摘要]斐波拉契数列又称黄金分割数列，在著名的小说达芬奇密码中也有精彩的呈现，此文章主要提供两种语法：C++和python的斐波拉契数列的实现。&lt;/p&gt;
+&lt;p&gt;##C++&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+    
+    </summary>
+    
+      <category term="技术" scheme="http://demign.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="算法" scheme="http://demign.tk/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello Ward</title>
+    <link href="http://demign.tk/2017/04/06/hello-ward/"/>
+    <id>http://demign.tk/2017/04/06/hello-ward/</id>
+    <published>2017-04-06T02:24:59.305Z</published>
+    <updated>2017-04-06T02:24:59.306Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>我对嫌疑人X有话说</title>
+    <link href="http://demign.tk/2017/04/03/suspect-X/"/>
+    <id>http://demign.tk/2017/04/03/suspect-X/</id>
+    <published>2017-04-02T16:12:14.000Z</published>
+    <updated>2017-04-06T02:24:59.299Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="电影" scheme="http://demign.tk/categories/%E7%94%B5%E5%BD%B1/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何快速搭建Github Pages</title>
+    <link href="http://demign.tk/2017/04/02/build-github-pages/"/>
+    <id>http://demign.tk/2017/04/02/build-github-pages/</id>
+    <published>2017-04-02T13:58:55.000Z</published>
+    <updated>2017-04-06T02:24:59.218Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[摘要]本文详细叙述了简易快速博客系统的搭建，包括创建自己的github账号，安装所需软件工具，注册免费域名，项目搭建，修改主题，本地调试，部署到github上等等，我会尽量采用简单易懂的语言，助力大家快速搭建属于自己的博客。&lt;/p&gt;
+&lt;h2 id=&quot;为什么要采用Githu
+    
+    </summary>
+    
+      <category term="技术" scheme="http://demign.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="github" scheme="http://demign.tk/tags/github/"/>
+    
+  </entry>
+  
+</feed>
