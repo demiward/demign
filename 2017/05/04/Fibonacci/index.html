@@ -235,7 +235,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#C"><span class="post-toc-number">1.</span> <span class="post-toc-text">C++</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#python"><span class="post-toc-number">2.</span> <span class="post-toc-text">python</span></a></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#C"><span class="post-toc-number">1.</span> <span class="post-toc-text">C++</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#python"><span class="post-toc-number">2.</span> <span class="post-toc-text">python</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#结果"><span class="post-toc-number">3.</span> <span class="post-toc-text">结果</span></a></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -395,6 +395,8 @@
         <p>[摘要]斐波拉契数列又称黄金分割数列，在著名的小说达芬奇密码中也有精彩的呈现，此文章主要提供两种语法：C++和python的斐波拉契数列的实现。</p>
 <h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">#include &lt;iostream&gt;</div><div class="line"></div><div class="line">int fib(int max);</div><div class="line"></div><div class="line">int main() &#123;</div><div class="line">	int max;</div><div class="line">	std::cin &gt;&gt; max;</div><div class="line">	fib(max);</div><div class="line">	return 0;</div><div class="line">&#125;</div><div class="line"></div><div class="line">int fib(int max) &#123;</div><div class="line">	int n = 0, a = 0, b = 1;</div><div class="line">	while (n &lt; max) &#123;</div><div class="line">		std::cout &lt;&lt; b &lt;&lt; std::endl;</div><div class="line">		int c = a;</div><div class="line">		a = b;</div><div class="line">		b = c + b;</div><div class="line">		n++;</div><div class="line">	&#125;</div><div class="line">	return 'done';</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="python"><a href="#python" class="headerlink" title="python"></a>python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">fib</span><span class="params">(max)</span>:</span></div><div class="line">	n, a, b = <span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span></div><div class="line">	<span class="keyword">while</span> n &lt; max:</div><div class="line">		print(b)</div><div class="line">		a, b = b, a + b</div><div class="line">		n = n + <span class="number">1</span></div><div class="line">	<span class="keyword">return</span> <span class="string">'dene'</span></div><div class="line">	</div><div class="line">f = fib(<span class="number">5</span>)</div><div class="line">print(f)</div></pre></td></tr></table></figure>
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p><img src="fib.png" alt="1"></p>
+
     
 
     
@@ -518,7 +520,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">3</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         
@@ -536,7 +538,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/技术/">技术<span class="sidebar_archives-count">2</span></a></li><li><a class="sidebar_archives-link" href="/categories/电影/">电影<span class="sidebar_archives-count">1</span></a>
+                <a class="sidebar_archives-link" href="/categories/技术/">技术<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         
@@ -560,7 +562,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">4</span>
+                <span class="sidebar-badge">3</span>
             </a>
         </li>
         
