@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://demign.tk/"/>
-  <updated>2017-05-04T08:17:09.323Z</updated>
+  <updated>2017-05-05T08:04:11.613Z</updated>
   <id>http://demign.tk/</id>
   
   <author>
@@ -16,11 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>回文数的实现</title>
+    <link href="http://demign.tk/2017/05/05/Palindrome/"/>
+    <id>http://demign.tk/2017/05/05/Palindrome/</id>
+    <published>2017-05-05T06:42:44.000Z</published>
+    <updated>2017-05-05T08:04:11.613Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div cla
+    
+    </summary>
+    
+      <category term="算法" scheme="http://demign.tk/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="C++" scheme="http://demign.tk/tags/C/"/>
+    
+      <category term="python" scheme="http://demign.tk/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>汉诺塔的递归实现</title>
     <link href="http://demign.tk/2017/05/04/Hanoi/"/>
     <id>http://demign.tk/2017/05/04/Hanoi/</id>
     <published>2017-05-04T08:03:33.000Z</published>
-    <updated>2017-05-04T08:17:09.323Z</updated>
+    <updated>2017-05-05T06:47:30.241Z</updated>
     
     <summary type="html">
     
@@ -29,10 +51,12 @@
     
     </summary>
     
-      <category term="技术" scheme="http://demign.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="算法" scheme="http://demign.tk/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="算法" scheme="http://demign.tk/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="C++" scheme="http://demign.tk/tags/C/"/>
+    
+      <category term="python" scheme="http://demign.tk/tags/python/"/>
     
   </entry>
   
@@ -41,7 +65,7 @@
     <link href="http://demign.tk/2017/05/04/Triangle/"/>
     <id>http://demign.tk/2017/05/04/Triangle/</id>
     <published>2017-05-04T06:30:35.000Z</published>
-    <updated>2017-05-04T07:29:59.388Z</updated>
+    <updated>2017-05-05T06:47:30.146Z</updated>
     
     <summary type="html">
     
@@ -50,10 +74,12 @@
     
     </summary>
     
-      <category term="技术" scheme="http://demign.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="算法" scheme="http://demign.tk/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="算法" scheme="http://demign.tk/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="C++" scheme="http://demign.tk/tags/C/"/>
+    
+      <category term="python" scheme="http://demign.tk/tags/python/"/>
     
   </entry>
   
@@ -62,7 +88,7 @@
     <link href="http://demign.tk/2017/05/04/Fibonacci/"/>
     <id>http://demign.tk/2017/05/04/Fibonacci/</id>
     <published>2017-05-04T03:25:22.000Z</published>
-    <updated>2017-05-04T07:38:19.481Z</updated>
+    <updated>2017-05-05T06:47:30.197Z</updated>
     
     <summary type="html">
     
@@ -71,10 +97,12 @@
     
     </summary>
     
-      <category term="技术" scheme="http://demign.tk/categories/%E6%8A%80%E6%9C%AF/"/>
+      <category term="算法" scheme="http://demign.tk/categories/%E7%AE%97%E6%B3%95/"/>
     
     
-      <category term="算法" scheme="http://demign.tk/tags/%E7%AE%97%E6%B3%95/"/>
+      <category term="C++" scheme="http://demign.tk/tags/C/"/>
+    
+      <category term="python" scheme="http://demign.tk/tags/python/"/>
     
   </entry>
   
