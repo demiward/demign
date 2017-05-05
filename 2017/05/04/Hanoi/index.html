@@ -392,7 +392,7 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>[摘要]古老的益智游戏现在只需几行代码就可以搞定啦</p>
+        <p>[摘要] 古老的益智游戏现在只需几行代码就可以搞定啦</p>
 <h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string&gt;</span></span></div><div class="line"></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">hanoi</span><span class="params">(<span class="keyword">int</span> n, <span class="built_in">string</span> a, <span class="built_in">string</span> b, <span class="built_in">string</span> c)</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">	hanoi(<span class="number">3</span>, <span class="string">"A"</span>, <span class="string">"B"</span>, <span class="string">"C"</span>);</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">hanoi</span><span class="params">(<span class="keyword">int</span> n, <span class="built_in">string</span> a, <span class="built_in">string</span> b, <span class="built_in">string</span> c)</span> </span>&#123;</div><div class="line">	<span class="keyword">if</span>(n == <span class="number">1</span>) &#123;</div><div class="line">		<span class="built_in">cout</span> &lt;&lt; a &lt;&lt; <span class="string">" =&gt; "</span> &lt;&lt; c &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">else</span> &#123;</div><div class="line">		hanoi(n<span class="number">-1</span>, a, c, b);</div><div class="line">		<span class="built_in">cout</span> &lt;&lt; a &lt;&lt; <span class="string">" =&gt; "</span> &lt;&lt; c &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">		hanoi(n<span class="number">-1</span>, b, a, c);</div><div class="line">	&#125;</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="python"><a href="#python" class="headerlink" title="python"></a>python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">hanoi</span><span class="params">(n, a, b, c)</span>:</span></div><div class="line">    <span class="keyword">if</span> n == <span class="number">1</span>:</div><div class="line">        print(a, <span class="string">' =&gt; '</span>, c)</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        hanoi(n<span class="number">-1</span>, a, c, b)</div><div class="line">        print(a, <span class="string">' =&gt; '</span>, c)</div><div class="line">        hanoi(n<span class="number">-1</span>, b, a, c)</div><div class="line">        </div><div class="line">hanoi(<span class="number">3</span>, <span class="string">'A'</span>, <span class="string">'B'</span>, <span class="string">'C'</span>)</div></pre></td></tr></table></figure>
 <h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p><img src="hanoi.png" alt="1"></p>
@@ -528,7 +528,7 @@
             </a>
             <ul class="dropdown-menu">
             <li>
-                <a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">4</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">2</span></a>
+                <a class="sidebar_archives-link" href="/archives/2017/05/">五月 2017<span class="sidebar_archives-count">5</span></a></li><li><a class="sidebar_archives-link" href="/archives/2017/04/">四月 2017<span class="sidebar_archives-count">2</span></a>
             </ul>
         </li>
         
@@ -546,7 +546,7 @@
             </a>
             <ul class="dropdown-menu">
                 <li>
-                <a class="sidebar_archives-link" href="/categories/技术/">技术<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/算法/">算法<span class="sidebar_archives-count">4</span></a>
+                <a class="sidebar_archives-link" href="/categories/技术/">技术<span class="sidebar_archives-count">1</span></a></li><li><a class="sidebar_archives-link" href="/categories/算法/">算法<span class="sidebar_archives-count">5</span></a>
             </ul>
         </li>
         
@@ -570,7 +570,7 @@
         <li>
             <a href="/archives">
                 文章总数
-                <span class="sidebar-badge">6</span>
+                <span class="sidebar-badge">7</span>
             </a>
         </li>
         

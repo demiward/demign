@@ -10,7 +10,7 @@
     
     <title>
         
-            斐波拉契数列的实现 | 
+            素数的实现 | 
         
         MY BLOG
     </title>
@@ -48,7 +48,7 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://demign.tk">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="斐波拉契数列的实现 | MY BLOG">
+    <meta property="og:title" content="素数的实现 | MY BLOG">
     <meta property="og:description" content="hahahahaha">
     <meta property="og:article:tag" content="C++"> <meta property="og:article:tag" content="python"> 
 
@@ -271,7 +271,7 @@
         
     
             <p class="article-headline-p">
-                斐波拉契数列的实现
+                素数的实现
             </p>
         </div>
 
@@ -290,7 +290,7 @@
     <!-- Author Name & Date -->
     <div>
         <strong>demi</strong>
-        <span>5月 04, 2017</span>
+        <span>5月 05, 2017</span>
     </div>
 
     <div class="section-spacer"></div>
@@ -341,7 +341,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=斐波拉契数列的实现&url=http://demign.tk//2017/05/04/Fibonacci/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=素数的实现&url=http://demign.tk//2017/05/05/Primes/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -350,7 +350,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=斐波拉契数列的实现&url=http://demign.tk//2017/05/04/Fibonacci/index.html&via=demi" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=素数的实现&url=http://demign.tk//2017/05/05/Primes/index.html&via=demi" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -359,7 +359,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://demign.tk//2017/05/04/Fibonacci/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://demign.tk//2017/05/05/Primes/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -368,7 +368,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://demign.tk//2017/05/04/Fibonacci/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://demign.tk//2017/05/05/Primes/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -392,10 +392,18 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>[摘要] 斐波拉契数列又称黄金分割数列，在著名的小说达芬奇密码中也有精彩的呈现，此文章主要提供两种语法：C++和python的斐波拉契数列的实现。</p>
-<h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iomanip&gt;</span></span></div><div class="line"></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">fib</span><span class="params">(<span class="keyword">int</span> max)</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">	<span class="keyword">int</span> max;</div><div class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="string">"please input a number: "</span>;</div><div class="line">    <span class="built_in">cin</span> &gt;&gt; max;</div><div class="line">    fib(max);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">fib</span><span class="params">(<span class="keyword">int</span> max)</span> </span>&#123;</div><div class="line">	<span class="keyword">int</span> n = <span class="number">0</span>, a = <span class="number">0</span>, b = <span class="number">1</span>;</div><div class="line">	<span class="keyword">while</span> (n &lt; max) &#123;</div><div class="line">		<span class="built_in">cout</span> &lt;&lt; b &lt;&lt; setw(<span class="number">4</span>);</div><div class="line">		<span class="keyword">int</span> c = a;</div><div class="line">		a = b;</div><div class="line">		b = c + b;</div><div class="line">		n++;</div><div class="line">	&#125;</div><div class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="built_in">endl</span>;</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="python"><a href="#python" class="headerlink" title="python"></a>python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">fib</span><span class="params">(max)</span>:</span></div><div class="line">	n, a, b = <span class="number">0</span>, <span class="number">0</span>, <span class="number">1</span></div><div class="line">	<span class="keyword">while</span> n &lt; max:</div><div class="line">		print(b)</div><div class="line">		a, b = b, a + b</div><div class="line">		n = n + <span class="number">1</span></div><div class="line">	<span class="keyword">return</span> <span class="string">'done'</span></div><div class="line">	</div><div class="line">f = fib(<span class="number">5</span>)</div><div class="line">print(f)</div></pre></td></tr></table></figure>
-<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p><img src="fib.png" alt="1"></p>
+        <p>[摘要] <em>*</em></p>
+<h2 id="C"><a href="#C" class="headerlink" title="C++"></a>C++</h2><p>[分析] 两种方法：筛选法和开根号法</p>
+<ul>
+<li>筛选法：从小到大删除一个已知素数的所有倍数，依次删除可被2整除，3整除…的数字，剩下的则为素数。</li>
+<li>开根号法：如果一个数（&gt;2）能被这个数的平方根到2之间的任何一个数整除说明这个数不是质数。</li>
+</ul>
+<p>下面所用的方法是开根号法<br><figure class="highlight c++"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iomanip&gt;</span></span></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;math.h&gt;</span></span></div><div class="line"></div><div class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">primes</span><span class="params">(<span class="keyword">int</span> min, <span class="keyword">int</span> max)</span></span>;</div><div class="line"><span class="function"><span class="keyword">bool</span> <span class="title">is_prime</span><span class="params">(<span class="keyword">int</span> x)</span></span>;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</div><div class="line">	<span class="keyword">int</span> min, max;</div><div class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"please input two positive integers: "</span>;</div><div class="line">	<span class="built_in">cin</span> &gt;&gt; min &gt;&gt; max;</div><div class="line">	primes(min, max);    <span class="comment">//显示min到max之间的所有素数</span></div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">//判断一个数是否是素数</span></div><div class="line"><span class="function"><span class="keyword">bool</span> <span class="title">is_prime</span><span class="params">(<span class="keyword">int</span> x)</span> </span>&#123;</div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>; i&lt;= <span class="built_in">sqrt</span>(x); i++)</div><div class="line">		<span class="keyword">if</span>(x % i == <span class="number">0</span>)</div><div class="line">			<span class="keyword">return</span> <span class="literal">false</span>;</div><div class="line">	<span class="keyword">return</span> <span class="literal">true</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">primes</span><span class="params">(<span class="keyword">int</span> min, <span class="keyword">int</span> max)</span> </span>&#123;</div><div class="line">	<span class="keyword">int</span> temp;</div><div class="line">	<span class="keyword">if</span>(min &gt; max) &#123;</div><div class="line">		temp = max;</div><div class="line">		max = min;</div><div class="line">		min = temp;</div><div class="line">	&#125;</div><div class="line"></div><div class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">2</span>; i&lt;= max; i++) &#123;</div><div class="line">		<span class="keyword">if</span>(is_prime(i))</div><div class="line">			<span class="built_in">cout</span> &lt;&lt; i &lt;&lt; setw(<span class="number">4</span>);</div><div class="line">	&#125;</div><div class="line">	<span class="built_in">cout</span>&lt;&lt; <span class="built_in">endl</span>;</div><div class="line">	<span class="keyword">return</span> <span class="number">0</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h2 id="python"><a href="#python" class="headerlink" title="python"></a>python</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#生成一个3开头的基数序列</span></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">_odd_iter</span><span class="params">()</span>:</span></div><div class="line">    n = <span class="number">1</span></div><div class="line">    <span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">        n = n + <span class="number">2</span></div><div class="line">        <span class="keyword">yield</span> n</div><div class="line">        </div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">_not_divisible</span><span class="params">(n)</span>:</span></div><div class="line">    <span class="keyword">return</span> <span class="keyword">lambda</span> x: x % n &gt; <span class="number">0</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">def</span> <span class="title">primes</span><span class="params">()</span>:</span></div><div class="line">    <span class="keyword">yield</span> <span class="number">2</span>          <span class="comment"># 2是第一个素数</span></div><div class="line">    it = _odd_iter() <span class="comment"># 初始序列:2, 3, 5, 7, 9...</span></div><div class="line">    <span class="keyword">while</span> <span class="keyword">True</span>:</div><div class="line">        n = next(it) <span class="comment"># 返回序列的第一个数</span></div><div class="line">        <span class="keyword">yield</span> n</div><div class="line">        it = filter(_not_divisible(n), it) <span class="comment"># 构造新序列</span></div><div class="line"></div><div class="line"><span class="comment"># 打印1000以内的素数:</span></div><div class="line"><span class="keyword">for</span> n <span class="keyword">in</span> primes():</div><div class="line">    <span class="keyword">if</span> n &lt; <span class="number">100</span>:</div><div class="line">        print(n)</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        <span class="keyword">break</span></div></pre></td></tr></table></figure>
+<h2 id="结果"><a href="#结果" class="headerlink" title="结果"></a>结果</h2><p>C++</p>
+<p><img src="primes_C++.png" alt="1"></p>
+<p>python</p>
+<p><img src="primes_python.png" alt="2"></p>
 
     
 
@@ -422,7 +430,7 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/04/06/hello-ward/" id="post_nav-newer" class="prev-content">
+        <a href="/2017/05/05/Palindrome/" id="post_nav-newer" class="prev-content">
             <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
                 <i class="material-icons">arrow_back</i>
             </button>
@@ -435,14 +443,6 @@
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
-    
-        <a href="/2017/05/04/Triangle/" id="post_nav-older" class="next-content">
-            旧篇
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_forward</i>
-            </button>
-        </a>
     
 </nav>
 

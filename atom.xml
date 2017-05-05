@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://demign.tk/"/>
-  <updated>2017-05-05T08:27:38.416Z</updated>
+  <updated>2017-05-05T09:32:01.926Z</updated>
   <id>http://demign.tk/</id>
   
   <author>
@@ -16,11 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>素数的实现</title>
+    <link href="http://demign.tk/2017/05/05/Primes/"/>
+    <id>http://demign.tk/2017/05/05/Primes/</id>
+    <published>2017-05-05T08:47:06.000Z</published>
+    <updated>2017-05-05T09:32:01.926Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;[摘要] &lt;em&gt;*&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;p&gt;[分析] 两种方法：筛选法和开根号法&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;筛选法：从小到大删除一个已知素
+    
+    </summary>
+    
+      <category term="算法" scheme="http://demign.tk/categories/%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="C++" scheme="http://demign.tk/tags/C/"/>
+    
+      <category term="python" scheme="http://demign.tk/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>回文数的实现</title>
     <link href="http://demign.tk/2017/05/05/Palindrome/"/>
     <id>http://demign.tk/2017/05/05/Palindrome/</id>
     <published>2017-05-05T06:42:44.000Z</published>
-    <updated>2017-05-05T08:27:38.416Z</updated>
+    <updated>2017-05-05T09:08:04.039Z</updated>
     
     <summary type="html">
     
@@ -43,12 +68,12 @@
     <link href="http://demign.tk/2017/05/04/Hanoi/"/>
     <id>http://demign.tk/2017/05/04/Hanoi/</id>
     <published>2017-05-04T08:03:33.000Z</published>
-    <updated>2017-05-05T06:47:30.241Z</updated>
+    <updated>2017-05-05T09:28:42.230Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;[摘要]古老的益智游戏现在只需几行代码就可以搞定啦&lt;/p&gt;
-&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr
+      &lt;p&gt;[摘要] 古老的益智游戏现在只需几行代码就可以搞定啦&lt;/p&gt;
+&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;t
     
     </summary>
     
@@ -66,12 +91,12 @@
     <link href="http://demign.tk/2017/05/04/Triangle/"/>
     <id>http://demign.tk/2017/05/04/Triangle/</id>
     <published>2017-05-04T06:30:35.000Z</published>
-    <updated>2017-05-05T06:47:30.146Z</updated>
+    <updated>2017-05-05T09:28:54.775Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;[摘要]&lt;/p&gt;
-&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;
+      &lt;p&gt;[摘要] &lt;em&gt;*&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C++&lt;/h2&gt;&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class
     
     </summary>
     
@@ -89,12 +114,12 @@
     <link href="http://demign.tk/2017/05/04/Fibonacci/"/>
     <id>http://demign.tk/2017/05/04/Fibonacci/</id>
     <published>2017-05-04T03:25:22.000Z</published>
-    <updated>2017-05-05T06:47:30.197Z</updated>
+    <updated>2017-05-05T09:28:36.455Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;[摘要]斐波拉契数列又称黄金分割数列，在著名的小说达芬奇密码中也有精彩的呈现，此文章主要提供两种语法：C++和python的斐波拉契数列的实现。&lt;/p&gt;
-&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;C
+      &lt;p&gt;[摘要] 斐波拉契数列又称黄金分割数列，在著名的小说达芬奇密码中也有精彩的呈现，此文章主要提供两种语法：C++和python的斐波拉契数列的实现。&lt;/p&gt;
+&lt;h2 id=&quot;C&quot;&gt;&lt;a href=&quot;#C&quot; class=&quot;headerlink&quot; title=&quot;C++&quot;&gt;&lt;/a&gt;
     
     </summary>
     
